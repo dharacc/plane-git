@@ -11,3 +11,19 @@ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 Text Domain:  twentyfifteenchild
 */
+
+@media only screen and (max-width:575px) {
+    .find-out-more-section-new .find-out-box {
+        padding: 30px 0 0 !important;
+    }
+    .find-out-more-section-new .col:last-child .find-out-box {
+        padding-bottom: 30px !important;
+    }	
+    .desktop-only
+        {
+            display: none;
+        }
+    .mobile-only {
+        display: block;
+    }
+    }
